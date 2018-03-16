@@ -22,6 +22,7 @@ p {
 
 .nav {
   background-image: url('../images/about.jpg');
+  padding: 10px;
 }
 
 }
@@ -32,4 +33,8 @@ p {
   }
 }
 
+img {
+  float: left;
+  width: 60px height;
+  60px
 }
