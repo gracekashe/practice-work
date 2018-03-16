@@ -20,11 +20,16 @@ p {
   font-family: fantasy;
 }
 
-.navgate {
-  display: block;
-  text-align: center;
-  float: left;
-  font-size: 30px;
-  font-style: oblique;
-  list-style-type: georgian;
+.nav {
+  background-image: url('../images/about.jpg');
+}
+
+}
+
+@media screen and (max width=44em) {
+  nav[role="full-horizontal"] ul>li {
+    width: 100%;
+  }
+}
+
 }
